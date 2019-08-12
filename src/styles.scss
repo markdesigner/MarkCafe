@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+$white:#FFFFFF;
+$yellow:#FFE180;
+$d-green:#3F5D45;
+$l-green:#EAF0ED;
+$m-green:#8DA291;
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: $white;
+  }
+
+  .top1{
+      color:$yellow;
+  }
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.clearfix{
+    &::after{
+        display: block;
+        content:"";
+        clear: both;
+    }
+    
+}
+.markrow{
+    display: flex;
+}
+  
