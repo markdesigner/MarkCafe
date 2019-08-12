@@ -10,9 +10,7 @@ body{
     background-color: $white;
   }
 
-  .top1{
-      color:$yellow;
-  }
+
 .fl{
     float: left;
 }
@@ -35,5 +33,12 @@ body{
 }
 .markrow{
     display: flex;
+}
+.outContainer{
+    max-width: 1140px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    
 }
   

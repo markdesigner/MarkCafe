@@ -1,14 +1,89 @@
 @import '../../../styles.scss';
-p{
-    color: $yellow;
+
+.star{
+    margin-bottom: 65px;
+    .cover_img{
+        width: 90vh;
+        height: 50vh;
+        padding: 40px;
+        margin: auto;
+    }
+    .main_section{
+        display: flex;
+        margin: auto;
+        width: fit-content;
+        margin-top: -126px;
+    
+    
+        .top{
+            writing-mode: vertical-rl;
+            padding: 70px 100px;
+            margin-left: 1px;
+            opacity: .8;
+            
+            
+        }
+        .top1{
+            background-color: $yellow;
+           
+            color:$d-green;
+        }
+        .top2,.top3{
+            background-color: $d-green;
+    
+            color:$white;
+    
+        }
+    }
 }
-.block{
-    color:yellow !important; 
-}
+
 img{
     width: 100%;
+    height: 100%;
 }
-.cover_img{
-    width: 100%;
-    height: 60%;
+
+.intro{
+    margin-bottom: 60px;
+    margin-top: 30px;
+    .img{
+        width: 400px;
+        height: 400px;
+        margin-top: -30px;
+        margin-bottom: -40px;
+        
+    }
+    .outContainer{
+        background-color: $l-green;
+        padding-bottom: 20px;
+    }
+    .title{
+        margin-left: 66px;
+        margin-top: -22px;
+        writing-mode: vertical-rl;
+        font-size: 30px;
+        color:$d-green;
+        .two{
+            margin-top: 15px;
+        }
+    }
+    .content{
+        writing-mode: vertical-rl;
+        color:$d-green;
+        line-height: 3;
+        padding-top: 56px;
+        padding-left: 130px;
+    }
 }
+.only_word{
+    height: 300px;
+    .title{
+        margin: 0 auto;
+        writing-mode: vertical-rl;
+        font-size: 28px;
+        color:$d-green;
+        .two{
+            margin-top: 20px;
+        }
+    }
+}
+
